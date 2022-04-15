@@ -79,6 +79,7 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 	timer_tog.state = 1;
+	timer_tog.send_data = 0;
 
   /* USER CODE END Init */
 

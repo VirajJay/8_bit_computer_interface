@@ -10,7 +10,9 @@
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	if( timer_tog.state == 1 ){
 		timer_tog.state = 0;
+		timer_tog.send_data = 0;
 	}else{
 		timer_tog.state = 1;
+		timer_tog.send_data = 1;
 	}
 }

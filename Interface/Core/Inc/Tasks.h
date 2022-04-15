@@ -15,7 +15,8 @@
 #include "gpio.h"
 #include "aux_functions.h"
 
+void pack_send_uart(void);
 
-#define TIMER_AUTO
+//#define TIMER_AUTO
 
 #endif /* INC_TASKS_H_ */

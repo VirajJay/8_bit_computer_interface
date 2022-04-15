@@ -74,6 +74,7 @@ void Error_Handler(void);
 
 struct TIM_TOG{
 	uint8_t state;
+	uint8_t send_data;
 };
 
 extern struct TIM_TOG timer_tog;
