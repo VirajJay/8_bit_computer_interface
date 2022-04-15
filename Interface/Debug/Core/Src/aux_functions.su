@@ -1,0 +1,6 @@
+aux_functions.c:9:10:read_address	16	static
+aux_functions.c:31:9:read_data_bus	16	static
+aux_functions.c:45:6:get_read_write	8	static
+aux_functions.c:53:10:ms_to_ticks	24	static
+aux_functions.c:63:6:int_to_binstring	40	static
+aux_functions.c:82:6:int_to_hexstring	40	static
